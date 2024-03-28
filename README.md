@@ -17,13 +17,14 @@ A Premier League é uma das ligas que mais acompanho depois do Campeonato Brasil
 Ressalto que a usabilidade é totalmente recreativa e monitorada num grupo seleto de pessoas. Não apresenta quaisquer resultados concretos, se tratando apenas de probabilidades que estão incluídas num infinito quadro de possibilidades e realidades. 
 Se você se interessar por esse projeto e quiser usá-lo, sinta-se à vontade; mas tenha em mente que as percepções que você tiver em relação aos resultados e dados apresentados serão totalmente voltadas ao seu ponto de vista. Para uma referência futura: Os resultados que você obtiver, serão única e exclusivamente mérito e responsabilidade seus e somente seus.
 
-## Python:
+## Scripts Python:
+Essa base é toda voltada para um usuário de certa forma pouco experiente, então podem haver melhorias a implementar.
 
 "premier_league_home_away.py" é o arquivo principal.
 
 Nele eu criei algumas funções para ajudar a tratar as informações retiradas da página da Web (Referência 1 - Referências)
 
-#### Funções - premier_league_home_away.py
+### Funções - premier_league_home_away.py
 
 - buscar_tabelas --> essa função 
 
