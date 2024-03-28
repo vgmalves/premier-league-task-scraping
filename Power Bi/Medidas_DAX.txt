@@ -1,0 +1,106 @@
+# Medir o percentual de evolução total do campeonato
+
+%_conclusao = DIVIDE(SUM('public premier_league'[partidas]), (38*20), 0)
+
+################################################################################
+
+# Cálcular a média de gols do time pela tabela Geral.
+
+media_gols = AVERAGEX(
+    
+    'public premier_league',
+
+        DIVIDE(
+            'public premier_league'[gols_feitos] + 'public premier_league'[gols_sofridos], 
+            'public premier_league'[partidas], 
+            0
+        )
+    )
+
+
+media_gols_feitos_partida = AVERAGEX('public premier_league', 
+    
+    DIVIDE(
+        'public premier_league'[gols_feitos], 
+        'public premier_league'[partidas], 
+        0
+    )
+)
+
+
+media_gols_sofridos_partida = AVERAGEX('public premier_league', 
+    
+    DIVIDE(
+        'public premier_league'[gols_sofridos], 
+        'public premier_league'[partidas], 
+        0
+    )
+)
+
+################################################################################
+
+# Estatísticas da Rodada - Probabilidades e Atribuições dos filtros de times
+
+time_casa = 
+IF (
+    HASONEVALUE('public premier_league_casa'[time]),
+    VALUES('public premier_league_casa'[time]),
+    BLANK()
+)
+
+time_fora = SELECTEDVALUE('public premier_league_fora'[time], "Apenas um time por vez")
+
+
+Probabilidade de Derrota Casa = 
+
+(
+    CALCULATE(
+        VALUES('public premier_league_casa'[prob_d]), 
+            ALL('public premier_league_fora'[time])) 
+            
+    
+    + 
+
+    CALCULATE(
+        VALUES('public premier_league_fora'[prob_v]), 
+            ALL('public premier_league_casa'[time]))
+
+) / 2
+
+Probabilidade de Empate = 
+
+(
+    CALCULATE(
+        VALUES('public premier_league_casa'[prob_e]), 
+            ALL('public premier_league_fora'[time])) 
+            
+    
+    + 
+
+    CALCULATE(
+        VALUES('public premier_league_fora'[prob_e]), 
+            ALL('public premier_league_casa'[time]))
+
+) / 2
+
+
+Probabilidade de Vitória Casa = 
+
+(
+    CALCULATE(
+        VALUES('public premier_league_casa'[prob_v]), 
+            ALL('public premier_league_fora'[time])) 
+            
+    
+    + 
+
+    CALCULATE(
+        VALUES('public premier_league_fora'[prob_d]), 
+            ALL('public premier_league_casa'[time]))
+
+) / 2
+
+
+
+
+
