@@ -342,7 +342,7 @@ if response.status_code == 200:
 
         def atualizar_banco_de_dados(tabela, nome_da_tabela):
 
-            engine = create_engine('postgresql+psycopg2://postgres:vgmeloalves@localhost/Futebol')
+            engine = create_engine('postgresql+psycopg2://usuario:senha@host/banco')
             tabela.to_sql(nome_da_tabela, con=engine, if_exists='replace', index=False)
 
             return print(f'{nome_da_tabela} atualizado')
