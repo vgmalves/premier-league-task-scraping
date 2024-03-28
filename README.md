@@ -8,3 +8,7 @@
 
 #### Tabelas (Geral, Home & Away)
 ![Página 3](https://github.com/vgmalves/premier-league-task-scraping/blob/main/Power%20Bi/Telas%20do%20Dashboard/tabela-geral-tabelas.png?raw=true)
+
+## Sobre o Projeto
+
+A iniciativa deste projeto surgiu de maneira recreativa. O Futebol é um esporte apreciado por muitos, e eu faço parte desses muitos.
