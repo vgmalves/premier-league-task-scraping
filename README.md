@@ -20,11 +20,9 @@ Se você se interessar por esse projeto e quiser usá-lo, sinta-se à vontade; m
 ## Scripts Python:
 Essa base é toda voltada para um usuário de certa forma pouco experiente, então podem haver melhorias a implementar.
 
-"premier_league_home_away.py" é o arquivo principal.
+### premier_league_home_away.py
+"premier_league_home_away.py" é o arquivo principal. Nele eu criei algumas funções para ajudar a tratar as informações retiradas da página da Web (Referência 1 - Referências)
 
-Nele eu criei algumas funções para ajudar a tratar as informações retiradas da página da Web (Referência 1 - Referências)
-
-### Funções - premier_league_home_away.py
-
-- buscar_tabelas --> essa função 
+  ### Funções:
+    - buscar_tabelas --> essa função 
 
