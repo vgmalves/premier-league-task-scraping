@@ -1,4 +1,4 @@
-## Apresentação do Dashboard 
+## Resultado Final do Projeto
 
 #### Resumo do Time
 ![Página 1](https://github.com/vgmalves/premier-league-task-scraping/blob/main/Power%20Bi/Telas%20do%20Dashboard/tela-resumo-time.png?raw=true)
@@ -24,5 +24,7 @@ Essa base é toda voltada para um usuário de certa forma pouco experiente, ent�
 "premier_league_home_away.py" é o arquivo principal. Nele eu criei algumas funções para ajudar a tratar as informações retiradas da página da Web (Referência 1 - Referências)
 
   ### Funções:
-    - buscar_tabelas --> essa função 
-
+    - def buscar_tabelas():
+    - def jogos_casa():
+    - def jogos_fora():
+    - def atualizar_banco_de_dados(): 
