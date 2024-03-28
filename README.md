@@ -5,3 +5,6 @@
 
 #### Estatísticas da Partida
 ![Página 2](https://github.com/vgmalves/premier-league-task-scraping/blob/main/Power%20Bi/Telas%20do%20Dashboard/aba-estatisticas-partida.png?raw=true)
+
+#### Tabelas (Geral, Home & Away)
+![Página 3](https://github.com/vgmalves/premier-league-task-scraping/blob/main/Power%20Bi/Telas%20do%20Dashboard/aba-estatisticas-partida.png?raw=true)
