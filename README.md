@@ -58,3 +58,7 @@ O mesmo procedimento adotado na função acima é estabelicido nessas duas outra
 
 Utilizando "from sqlalchemy import create_engine", eu consigo criar uma engine que já determina a estrutura da tabela no banco de dados (por esse motivo eu tipei as informações extratídas da Web no código já (premier_league.py e premier_league_home_away.py)
 Aqui, basicamente utilizo uma variável com o dataframe retornado da pesquisa, e dou um nome à tabela. 
+
+## Referências
+
+- [Hipótese Futebol e Probabilidade](https://ufmg.medium.com/s%C3%A3o-s%C3%B3-dois-os-lados-da-mesma-partida-8de8a22d09d7)
