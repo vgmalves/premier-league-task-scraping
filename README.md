@@ -41,8 +41,11 @@ Observações: podem haver melhorias a implementar.
     def jogos_fora():
     def atualizar_banco_de_dados(): 
 
-#### buscar_tabelas - Fara a parte de buscar na url fornecida as tabelas dos jogos home & away dos times da Liga, retornado um dataframe que será tratado e upado numa tabela dentro de um banco de dados nos PostgreSQL, utilizando a função: atualizar_banco_de_dados. 
-#### jogos_fora, jogos_casa - O mesmo procedimento adotado na função acima é estabelicido nessas duas outras funções, que comportam as últimas 5 rodadas home&away dos times, porém, nesta função há uma maior concentração no tratamento dos dados, pois precisam ser normalizados com a intenção de podermos fazer um relacionamento entre as tabelas futuramente. 
+#### buscar_tabelas
+Busca na url fornecida as tabelas dos jogos home & away dos times da Liga, retornado um dataframe que será tratado e upado numa tabela dentro de um banco de dados nos PostgreSQL, utilizando a função: atualizar_banco_de_dados.
+
+#### jogos_fora, jogos_casa
+O mesmo procedimento adotado na função acima é estabelicido nessas duas outras funções, que comportam as últimas 5 rodadas home&away dos times, porém, nesta função há uma maior concentração no tratamento dos dados, pois precisam ser normalizados com a intenção de podermos fazer um relacionamento entre as tabelas futuramente. 
 
 #### atualizar_banco_de_dados:
 
