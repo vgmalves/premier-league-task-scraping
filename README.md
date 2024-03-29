@@ -23,8 +23,9 @@ Se você se interessar por esse projeto e quiser usá-lo, sinta-se à vontade; m
 ## Scripts Python:
 Observações: podem haver melhorias a implementar.
 
-### premier_league_home_away.py
+#### premier_league_home_away.py e premier_league.py
 "premier_league_home_away.py" é o arquivo principal. Nele eu criei algumas funções para ajudar a tratar as informações retiradas da página da Web (Referência 1 - Referências)
+criei ambos os scripts em momentos diferentes, mas percebi que pode ser interessante mantê-los separados. Por isso, ao executar o premier_league_home_away.py, importo os premier_league.py para utilizar sua função e obter a tabela geral da Liga.
 
   ### Libs:
   
