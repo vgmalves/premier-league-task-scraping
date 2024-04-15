@@ -20,7 +20,7 @@ A Premier League é uma das ligas que mais acompanho depois do Campeonato Brasil
 Ressalto que a usabilidade é totalmente recreativa e monitorada num grupo seleto de pessoas. Não apresenta quaisquer resultados concretos, se tratando apenas de probabilidades que estão incluídas num infinito quadro de possibilidades e realidades. 
 
 O cálculo que aparece no Dashboard é baseado na modelagem de força do time. Não sendo uma probabilidade, mas apenas um recurso utilizado para medir a "força" de um determinado time dentro do campeonato.
-Caso haja necessidade de realizar as simulações, deixei um arquivo .pynb aqui neste repositório com o que seriam a variadas simulações para chegar no resultado. Ressalto que busquei as referêcnias do código no ChatGPT, e pode precisar de aprimoramentos pra aplicações reais.
+Caso haja necessidade de realizar as simulações, deixei um arquivo Modelo_prob.ipynb aqui neste repositório com o que seriam a variadas simulações para chegar no resultado. Ressalto que busquei as referêcnias do código no ChatGPT, e pode precisar de aprimoramentos pra aplicações reais.
 
 Podemos nos aprofundar do assunto neste material na Referência 1 abaixo.
 
@@ -64,7 +64,15 @@ O mesmo procedimento adotado na função acima é estabelicido nessas duas outra
       return print(f'{nome_da_tabela} atualizado')
 
 Utilizando "from sqlalchemy import create_engine", eu consigo criar uma engine que já determina a estrutura da tabela no banco de dados (por esse motivo eu tipei as informações extratídas da Web no código já (premier_league.py e premier_league_home_away.py)
-Aqui, basicamente utilizo uma variável com o dataframe retornado da pesquisa, e dou um nome à tabela. 
+Aqui, basicamente utilizo uma variável com o dataframe retornado da pesquisa, e dou um nome à tabela.
+
+### Informações sobre o Dashboard
+
+#### Paleta de Cores: https://www.color-hex.com/color-palette/44426
+#### As imagens das telas estão dentro da Pasta Power Bi
+#### Utilizei o Figma pra desenhar a tela
+#### Conta com o PostgreSQL como base de dados
+
 
 ## Referências
 
