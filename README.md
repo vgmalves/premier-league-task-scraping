@@ -24,7 +24,7 @@ Caso haja necessidade de realizar as simulações, deixei um arquivo Modelo_prob
 
 Podemos nos aprofundar do assunto neste material na Referência 1 abaixo.
 
-#### Task Scraping
+### Task Scraping
 A pagina da web que utilizei para realizar esta tarefa de web scraping é a: https://footystats.org/england/premier-league
 
 ## Scripts Python:
