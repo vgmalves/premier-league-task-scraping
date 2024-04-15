@@ -22,6 +22,11 @@ Ressalto que a usabilidade é totalmente recreativa e monitorada num grupo selet
 O cálculo que aparece no Dashboard é baseado na modelagem de força do time. Não sendo uma probabilidade, mas apenas um recurso utilizado para medir a "força" de um determinado time dentro do campeonato.
 Caso haja necessidade de realizar as simulações, deixei um arquivo .pynb aqui neste repositório com o que seriam a variadas simulações para chegar no resultado. Ressalto que busquei as referêcnias do código no ChatGPT, e pode precisar de aprimoramentos pra aplicações reais.
 
+Podemos nos aprofundar do assunto neste material na Referência 1 abaixo.
+
+#### Task Scraping
+A pagina da web que utilizei para realizar esta tarefa de web scraping é a: https://footystats.org/england/premier-league
+
 ## Scripts Python:
 Observações: podem haver melhorias a implementar.
 
@@ -63,4 +68,5 @@ Aqui, basicamente utilizo uma variável com o dataframe retornado da pesquisa, e
 
 ## Referências
 
-- [Hipótese Futebol e Probabilidade](https://ufmg.medium.com/s%C3%A3o-s%C3%B3-dois-os-lados-da-mesma-partida-8de8a22d09d7)
+1 - [Hipótese Futebol e Probabilidade](https://ufmg.medium.com/s%C3%A3o-s%C3%B3-dois-os-lados-da-mesma-partida-8de8a22d09d7)
+2 -[Footystats](https://footystats.org/england/premier-league)
