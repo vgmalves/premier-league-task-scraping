@@ -18,7 +18,9 @@ A iniciativa deste projeto surgiu de maneira recreativa. O Futebol é um esporte
 
 A Premier League é uma das ligas que mais acompanho depois do Campeonato Brasileiro, e a intenção desse projeto foi apenas poder verificar as estatísticas básicas do considerado o campeonato mais competitivo do mundo, pra poder criar insights na roda de amigos para ponteciais palpites esportivos.
 Ressalto que a usabilidade é totalmente recreativa e monitorada num grupo seleto de pessoas. Não apresenta quaisquer resultados concretos, se tratando apenas de probabilidades que estão incluídas num infinito quadro de possibilidades e realidades. 
-Se você se interessar por esse projeto e quiser usá-lo, sinta-se à vontade; mas tenha em mente que as percepções que você tiver em relação aos resultados e dados apresentados serão totalmente voltadas ao seu ponto de vista. Para uma referência futura: Os resultados que você obtiver, serão única e exclusivamente mérito e responsabilidade seus e somente seus.
+
+O cálculo que aparece no Dashboard é baseado na modelagem de força do time. Não sendo uma probabilidade, mas apenas um recurso utilizado para medir a "força" de um determinado time dentro do campeonato.
+Caso haja necessidade de realizar as simulações, deixei um arquivo .pynb aqui neste repositório com o que seriam a variadas simulações para chegar no resultado. Ressalto que busquei as referêcnias do código no ChatGPT, e pode precisar de aprimoramentos pra aplicações reais.
 
 ## Scripts Python:
 Observações: podem haver melhorias a implementar.
